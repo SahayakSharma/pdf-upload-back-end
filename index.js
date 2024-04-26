@@ -22,7 +22,6 @@ const storage = multer.diskStorage({
   },
 });
 
-require("./pdfDetails");
 
 const upload = multer({ storage: storage });
 
